@@ -1,0 +1,325 @@
+*{
+	margin: 0;
+}
+#background{
+     background-image: url("xbox.jpeg");
+     background-size: cover;
+     width: 100%;
+     height: 170%;
+     background-color: rgba(0,0,0,.7);
+     background-blend-mode: overlay;
+}
+#webname{
+	color: white;
+	font-size: 22px;
+	margin-left: 20px;
+	letter-spacing: 10px;
+	line-height: 70px;
+}
+#webname:hover{
+    color: red;
+    cursor: pointer;
+}
+#homebtn a{
+	text-decoration: none;
+	color: white;
+}
+#homebtn{
+	border: 1px solid white;
+	width: 140px;
+	height: 25px;
+	text-align: center;
+	background-color: orange;
+	line-height: 25px;
+	box-shadow: white 4px 0px 10px 0px;
+	position: relative;
+	top: 40px;
+	left: 85px;
+}
+#homebtn a:hover{
+	color: black;
+	background-color: aqua;
+}
+#homebtn:hover{
+	color: black;
+	background-color: aqua;
+	letter-spacing: 5px;
+}
+#box{
+	width: 710px;
+	height: 780px;
+	box-shadow: orange 3px 0px 10px 0px;
+	margin-left: 300px;
+	margin-top: 30px;
+	background-color: rgba(0,0,0,.6);
+}
+#topbar{
+	width: 100%;
+	height: 6%;
+	background-color: lightgreen;
+	text-align: center;
+	line-height: 45px;
+	font-weight: bold;
+	color: blue;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+#topbar:hover{
+	background-color: aqua;
+	color: black;
+	cursor: pointer;
+}
+#gamename1{
+	color: white;
+	margin-top: 69px;
+	margin-left: 597px;
+	position: relative;
+	top: 23px;
+}
+.img1:hover{
+     transform: translateY(18px);
+	transition: transform 1s;
+}
+#gamename1:hover{
+       color: red;
+       cursor: pointer;
+}
+.img1{
+	margin-left: 525px;
+	width: 173px;
+	height: 200px;
+	position: relative;
+	top: 35px;
+}
+#gamename2{
+	color: white;
+	margin-top: -200px;
+	margin-left: 400px;
+}
+#gamename2:hover{
+       color: red;
+       cursor: pointer;
+}
+.img2{
+	margin-left: 345px;
+	width: 173px;
+	height: 220px;
+}
+.img2hover{
+     transform: translateY(18px);
+	transition: transform 1s;
+}
+#gamename3{
+	color: white;
+	margin-top: -240px;
+	margin-left: 195px;
+}
+#gamename3:hover{
+       color: red;
+       cursor: pointer;
+}
+.img3{
+	margin-left: 165px;
+	width: 173px;
+	height: 220px;
+}
+.img3:hover{
+	transform: translateY(18px);
+	transition: transform 1s;
+}
+#gamename4{
+	color: white;
+	margin-top: -240px;
+	margin-left: 5px;
+}
+#gamename4:hover{
+       color: red;
+       cursor: pointer;
+}
+.img4{
+	margin-left: 0px;
+	width: 153px;
+	height: 220px;
+}
+.img4:hover{
+     transform: translateY(18px);
+	transition: transform 1s;
+}
+.img2:hover{
+	transform: translateY(18px);
+	transition: transform 1s;
+}
+.img1:hover{
+	transform: translateY(18px);
+	transition: transform 1s;
+}
+#gamename5{
+	color: white;
+	margin-top: 27px;
+	margin-left: 5px;
+}
+#gamename5:hover{
+       color: red;
+       cursor: pointer;
+}
+.img5{
+	margin-left: 0px;
+	width: 153px;
+	height: 220px;
+}
+.img5:hover{
+     transform: translateY(18px);
+	transition: transform 1s;
+}
+#gamename6{
+	color: white;
+	margin-top: -238px;
+	margin-left: 175px;
+}
+#gamename6:hover{
+       color: red;
+       cursor: pointer;
+}
+.img6{
+	margin-left: 165px;
+	width: 173px;
+	height: 220px;
+}
+.img6:hover{
+     transform: translateY(18px);
+	transition: transform 1s;
+}
+#come{
+	color: white;
+	position: relative;
+	top: 499px;
+	margin-left: 32px;
+}
+#gamename7{
+	color: white;
+	margin-top: -238px;
+	margin-left: 375px;
+}
+#gamename7:hover{
+       color: red;
+       cursor: pointer;
+}
+.img7{
+	margin-left: 345px;
+	width: 173px;
+	height: 220px;
+}
+.img7:hover{
+     transform: translateY(18px);
+	transition: transform 1s;
+}
+#gamename8{
+	color: white;
+	margin-top: -238px;
+	margin-left: 597px;
+}
+#gamename8:hover{
+       color: red;
+       cursor: pointer;
+}
+.img8{
+	margin-left: 525px;
+	width: 173px;
+	height: 220px;
+}
+.img8:hover{
+     transform: translateY(18px);
+	transition: transform 1s;
+}
+.box3{
+	width: 100%;
+	height: 40%;
+	background-color: midnightblue;
+}
+
+.text-one{
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 370px;
+	line-height: 100px;
+}
+.text-one:hover{
+	color: red;
+	cursor: pointer;
+}
+.line1{
+	width: 200px;
+	height: 1px;
+	background-color: white;
+	margin-left: 315px;
+	margin-top: -30px;
+}
+.text-two{
+	color: white;
+	margin-left: 370px;
+	line-height: 60px;
+}
+.text-two:hover{
+	color: red;
+	cursor: pointer;
+}
+.text-three{
+       color: white;
+       margin-left: 365px;
+       line-height: 20px;
+}
+.text-three:hover{
+	color: red;
+	cursor: pointer;
+}
+.text-four{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 780px;
+    margin-top: -113px;
+}
+.text-four:hover{
+     color: red;
+     cursor: pointer;
+}
+.line2{
+	width: 200px;
+	height: 1px;
+	background-color: white;
+	margin-left: 720px;
+	margin-top: 20px;
+}
+.text-five{
+      color: white;
+      margin-left: 810px;
+      margin-top: 20px;
+}
+.text-five:hover{
+	color: red;
+	cursor: pointer;
+}
+button{
+	position: relative;
+	left: 350px;
+	top: 34px;
+	border: white 1px solid;
+	background-color: orange;
+	width: 190px;
+	height: 45px;
+	border-radius: 12px;
+}
+button a{
+	text-decoration: none;
+	font-size: 23px;
+	font-weight: bold;
+}
+.wet{
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+	position: relative;
+	top: 30px;
+	left: 40px;
+}
